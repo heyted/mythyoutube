@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mythmenu name="MAIN">
+
+    <button>
+        <type>TV_WATCH_TV</type>
+        <text>Watch TV</text>
+        <description>Watch live television</description>
+        <action>TV_WATCH_LIVE</action>
+    </button>
+
+    <button>
+        <type>MENU_MEDIA_LIBRARY</type>
+        <text>Media Library</text>
+        <action>MENU library.xml</action>
+        <description>Play any of your media</description>
+    </button>
+
+    <button>
+        <type>MENU_MANAGE_RECORDINGS</type>
+        <text>Manage Recordings</text>
+        <description>Pick and prioritize recordings</description>
+        <action>MENU manage_recordings.xml</action>
+    </button>
+
+   <button>
+      <type>TV_WATCH_TV</type>
+      <text>YouTube</text>
+      <description>Launch Youtube</description>
+      <action>EXEC /home/ted/.mythtv/youtube_leanback.sh</action>
+   </button>
+
+    <button>
+        <type>MENU_INFO_CENTER</type>
+        <text>Information Center</text>
+        <description>Information and Communications</description>
+        <action>MENU info_menu.xml</action>
+    </button>
+
+    <button>
+        <type>MENU_UTILITIES_SETUP</type>
+        <text>Setup</text>
+        <description>Configure MythTV and plugins</description>
+        <action>MENU main_settings.xml</action>
+        <password>SetupPinCode</password>
+    </button>
+
+</mythmenu>
